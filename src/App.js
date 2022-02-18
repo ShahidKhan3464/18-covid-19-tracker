@@ -63,7 +63,7 @@ function App() {
     <div className="App">
       <div className="app-left">
         <div className="app-header">
-          <h1>COVID-19 TRACKER</h1>
+          <h1>COVID-19 TRACKER netlifyyy</h1>
           <Form.Select onChange={onCountryChange}>
             <option value="Worldwide">Worldwide</option>
             {countries.map(country => (
