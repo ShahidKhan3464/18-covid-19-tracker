@@ -66,3 +66,25 @@ body {
         margin-top: 20px;
     }
 }
+
+@media (max-width: 480px) {
+    .app-header {
+        flex-direction: column;
+    }
+    
+    .app-header .form-select {
+        width: 50%;
+        margin-top: 1rem;
+    }
+    
+    .app-stats {
+        flex-direction: column;
+    }
+    
+    .app-stats .InfoBox {
+        width: 70%;
+        display: block;
+        margin: auto;
+        margin-top: 0.5rem;
+    }
+}
